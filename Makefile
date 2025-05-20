@@ -1,6 +1,9 @@
 install:
 	uv sync
 
+build: 
+	uv build
+
 brain-games:
 	uv run brain-games
 
