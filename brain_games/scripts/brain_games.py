@@ -10,5 +10,7 @@ def main():
     print('Answer "yes" if the number is even, otherwise answer "no"')
     number_question = get_random_number
     print(f'Question: {number_question}')
+
+
 if __name__ == "__main__":
     main()
