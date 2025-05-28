@@ -2,7 +2,7 @@ import prompt
 
 from brain_games.services.services import get_random_number
 
-from .brain_games import cli
+from .. import cli
 
 
 def main():
