@@ -2,7 +2,7 @@ import prompt
 
 from brain_games.services.services import get_random_number
 
-from ..brain_games import cli
+from .brain_games import cli
 
 
 def main():
@@ -16,5 +16,5 @@ def main():
 
 
 if __name__ == "__main__":
-    
+
     main()
