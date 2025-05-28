@@ -12,7 +12,7 @@ def main():
     number_question = get_random_number()
     print(f'Question: {number_question}')
     answer = prompt.string('Your answer: ')
-    
+    print(f'answer: {answer}')
 
 if __name__ == "__main__":
     main()
