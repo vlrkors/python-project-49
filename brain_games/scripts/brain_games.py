@@ -4,7 +4,9 @@ from brain_games.services.services import get_random_number
 
 from ..brain_games import cli
 
+
 def main():
+    
     cli.welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no"')
     number_question = get_random_number()
