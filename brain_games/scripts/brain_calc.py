@@ -4,7 +4,7 @@ import random
 def generate_expression():
 
     """
-    Генерируем случайное математическое выражение с операциями +, -, *.
+    Генерируем случайное математическое выражение c операциями +, -, *.
     """
     operators = ['+', '-', '*']
     operator = random.choice(operators)
