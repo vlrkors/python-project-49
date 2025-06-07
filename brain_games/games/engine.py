@@ -43,3 +43,4 @@ def run_game(get_question_and_answer, max_rounds=3):
             return
 
     print(f"Congratulations, {name}!")
+    return name
