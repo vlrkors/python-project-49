@@ -1,7 +1,6 @@
 import random
 from math import gcd
 
-from games.engine import generate_expression
 
 def generate_question_and_answer():
     """
