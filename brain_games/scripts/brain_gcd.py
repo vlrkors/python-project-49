@@ -9,5 +9,7 @@ def main():
     print("Find the greatest common divisor of given numbers.")
     run_game(generate_question_and_answer)
 
+
 if __name__ == "__main__":
+
     main()
