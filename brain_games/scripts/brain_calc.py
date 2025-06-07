@@ -1,6 +1,6 @@
 import random
 
-from games.calc import GAME_NAME, get_question_and_answer
+from games.calc import get_question_and_answer
 from games.engine import run_game
 
 
