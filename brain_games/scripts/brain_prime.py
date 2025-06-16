@@ -1,6 +1,6 @@
 import random
 from brain_games.games.engine import run_game
-from brain_games.services import is_prime
+from brain_games.services.services import is_prime
 
 
 def generate_question_and_answer():
