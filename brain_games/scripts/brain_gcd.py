@@ -1,5 +1,4 @@
 from brain_games.games.engine import run_game
-
 from brain_games.games.gcd import generate_question_and_answer
 
 
