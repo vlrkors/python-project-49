@@ -1,6 +1,33 @@
 import random
 
 
+def generate_progression():
+
+    """
+    Генерирует арифметическую прогрессию и скрывает случайный элемент.
+    Возвращает кортеж (вопрос, правильный ответ).
+    """
+    # Генерация параметров прогрессии
+    start = random.randint(1, 50)  # Начальное число
+    step = random.randint(1, 10)   # Шаг прогрессии
+    length = random.randint(5, 10)  # Длина прогрессии (от 5 до 10)
+    
+    # Создание прогрессии
+    progression = [start + step * i for i in range(length)]
+    
+    # Выбор случайного индекса для скрытия
+    hidden_index = random.randint(0, length - 1)
+    hidden_value = progression[hidden_index]
+    
+    # Замена скрытого элемента на '..'
+    progression[hidden_index] = '..'
+    
+    # Формирование вопроса
+    question = " ".join(map(str, progression))
+    
+    return question, hidden_value
+
+
 def generate_expression():
 
     """
