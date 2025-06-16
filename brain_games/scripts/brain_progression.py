@@ -1,4 +1,4 @@
-from games.engine import run_game, generate_progression
+from brain_games.games.engine import run_game, generate_progression
 
 def main():
     # Используем функцию generate_progression для генерации вопросов и ответов
