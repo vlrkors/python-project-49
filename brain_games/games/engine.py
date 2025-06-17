@@ -63,8 +63,8 @@ def run_game(get_question_and_answer, max_rounds=3):
         if str(user_answer) == str(correct_answer):
             print("Correct!")
         else:
-            print(f"'{user_answer}' is wrong answer ;(. \
-                  Correct answer was '{correct_answer}'.")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_answer}'.")
 
             print(f"Let's try again, {name}!")
             return
