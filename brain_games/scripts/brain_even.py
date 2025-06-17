@@ -5,7 +5,7 @@ from ..games.services import get_random_number
 
 def main(): 
     # Вывод приветствия и запрос имени пользователя
-    print("Welcome to brain-games!")
+    print("Welcome to the Brain Games!")
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
 
