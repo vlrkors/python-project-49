@@ -1,9 +1,15 @@
+import random
+
 import prompt
 
-from ..games.services import get_random_number
+
+def get_random_number():
+
+    return random.randint(1, 100)
 
 
 def main(): 
+
     # Вывод приветствия и запрос имени пользователя
     print("brain-even\n")
     print("Welcome to the Brain Games!")
