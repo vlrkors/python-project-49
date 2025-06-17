@@ -5,11 +5,14 @@ import prompt
 
 def get_random_number():
 
+    """Генерация случайного числа"""
     return random.randint(1, 100)
 
 
 def main(): 
 
+    """Предлагает пользователю проверить на четность случайно \
+    сгенерированные число."""
     # Вывод приветствия и запрос имени пользователя
     print("brain-even\n")
     print("Welcome to the Brain Games!")
