@@ -3,6 +3,7 @@ from brain_games import cli
 
 def main():
     
+    """Запрвшивает имя пользователя и выводит приветствие"""
     cli.welcome_user()
    
 
