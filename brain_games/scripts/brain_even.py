@@ -10,8 +10,8 @@ def main():
     print(f"Hello, {name}!")
 
     # Описание правил игры
-    print("Answer 'yes' if the number is even",
-          "otherwise answer 'no'.")
+    print('Answer "yes" if the number is even',
+          'otherwise answer "no".')
 
     # Количество вопросов для победы
     correct_answers = 0

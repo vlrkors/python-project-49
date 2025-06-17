@@ -1,4 +1,4 @@
-from games.engine import generate_expression
+from ..games.engine import generate_expression
 
 
 def get_question_and_answer():

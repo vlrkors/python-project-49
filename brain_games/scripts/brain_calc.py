@@ -1,7 +1,7 @@
 import random
 
-from games.calc import get_question_and_answer
-from games.engine import run_game
+from ..games.calc import get_question_and_answer
+from ..games.engine import run_game
 
 
 def generate_expression():
@@ -28,7 +28,8 @@ def generate_expression():
 def main():
 
     name_game = "brain-calc"
-    run_game(name_game, get_question_and_answer)
+    welcome_question = "What is the result of the expression?"
+    run_game(name_game, welcome_question, get_question_and_answer)
 
 
 if __name__ == "__main__":

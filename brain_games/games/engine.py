@@ -49,18 +49,18 @@ def generate_expression():
     return expression, result
 
 
-def run_game(name, get_question_and_answer, max_rounds=3):
+def run_game(name, welcome_question, get_question_and_answer, max_rounds=3):
 
     print(name + "\n")    
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
+    print(welcome_question)
 
     for _ in range(max_rounds):
         question, correct_answer = get_question_and_answer()
         print(f"Question: {question}")
         user_answer = input("Your answer: ")
-
         if str(user_answer) == str(correct_answer):
             print("Correct!")
         else:
