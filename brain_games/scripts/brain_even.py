@@ -1,6 +1,4 @@
-import prompt
-
-from ..services.services import get_random_number
+from ..games.services import get_random_number
 
 
 def main(): 
