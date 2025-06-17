@@ -4,15 +4,14 @@ from ..games.services import get_random_number
 
 
 def main(): 
-
     # Вывод приветствия и запрос имени пользователя
     print("Welcome to brain-games!")
     name = prompt.string('May I have your name? ')
     print(f"Hello, {name}!")
 
     # Описание правил игры
-    print("Answer 'yes' if the number is even, \
-          otherwise answer 'no'.")
+    print("Answer 'yes' if the number is even",
+          "otherwise answer 'no'.")
 
     # Количество вопросов для победы
     correct_answers = 0
@@ -28,8 +27,8 @@ def main():
 
         # Проверка корректности ввода
         if user_answer not in ["yes", "no"]:
-            print(f"'{user_answer}' is wrong answer ;(. \
-                  Correct answer was 'yes' or 'no'.")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was 'yes' or 'no'.")
 
             print(f"Let's try again, {name}!")
             return
@@ -43,8 +42,8 @@ def main():
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{user_answer}' is wrong answer ;(. \
-                  Correct answer was '{correct_response}'.")
+            print(f"'{user_answer}' is wrong answer ;(. "
+                  f"Correct answer was '{correct_response}'.")
 
             print(f"Let's try again, {name}!")
             return

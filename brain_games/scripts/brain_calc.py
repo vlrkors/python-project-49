@@ -27,7 +27,8 @@ def generate_expression():
 
 def main():
 
-    run_game(get_question_and_answer)
+    name_game = "brain-calc"
+    run_game(name_game, get_question_and_answer)
 
 
 if __name__ == "__main__":
