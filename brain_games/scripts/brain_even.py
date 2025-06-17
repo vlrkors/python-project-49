@@ -20,7 +20,7 @@ def main():
     print(f"Hello, {name}!")
 
     # Описание правил игры
-    print('Answer "yes" if the number is even, ',
+    print('Answer "yes" if the number is even,',
           'otherwise answer "no".')
 
     # Количество вопросов для победы
