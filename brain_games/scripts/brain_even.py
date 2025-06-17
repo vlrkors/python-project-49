@@ -1,3 +1,5 @@
+import prompt
+
 from ..games.services import get_random_number
 
 
