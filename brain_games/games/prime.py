@@ -3,7 +3,7 @@ import random
 
 def generate_question_and_answer():
     """Генерирует вопрос и правильный ответ."""
-    number = random.randint(1, 100)  # NOSONAR Генерируем случайное число от 1 до 100
+    number = random.randint(1, 100)  # NOSONAR
     question = str(number)
     correct_answer = "yes" if is_prime(number) else "no"
     return question, correct_answer
