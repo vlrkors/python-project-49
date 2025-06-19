@@ -34,7 +34,7 @@ def generate_expression():
     Генерируем случайное математическое выражение c операциями +, -, *.
     """
     operators = ['+', '-', '*']
-    operator = random.choice(operators)
+    operator = random.choice(operators)# NOSONAR
     num1 = random.randint(1, 50)# NOSONAR
     num2 = random.randint(1, 50)# NOSONAR
     
