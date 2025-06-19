@@ -16,7 +16,7 @@ def generate_progression():
     progression = [start + step * i for i in range(length)]
     
     # Выбор случайного индекса для скрытия
-    hidden_index = random.randint(0, length - 1) # NOSONAR
+    hidden_index = random.randint(0, length - 1)  # NOSONAR
     hidden_value = progression[hidden_index]
     
     # Замена скрытого элемента на '..'
@@ -34,9 +34,9 @@ def generate_expression():
     Генерируем случайное математическое выражение c операциями +, -, *.
     """
     operators = ['+', '-', '*']
-    operator = random.choice(operators)# NOSONAR
-    num1 = random.randint(1, 50)# NOSONAR
-    num2 = random.randint(1, 50)# NOSONAR
+    operator = random.choice(operators)  # NOSONAR
+    num1 = random.randint(1, 50)  # NOSONAR
+    num2 = random.randint(1, 50)  # NOSONAR
     
     if operator == '+':
         result = num1 + num2
