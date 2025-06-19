@@ -8,15 +8,15 @@ def generate_progression():
     Возвращает кортеж (вопрос, правильный ответ).
     """
     # Генерация параметров прогрессии
-    start = random.randint(1, 50)  # Начальное число
-    step = random.randint(1, 10)   # Шаг прогрессии
-    length = random.randint(5, 10)  # Длина прогрессии (от 5 до 10)
+    start = random.randint(1, 50)  # NOSONAR
+    step = random.randint(1, 10)   # NOSONAR
+    length = random.randint(5, 10)  # NOSONAR
     
     # Создание прогрессии
     progression = [start + step * i for i in range(length)]
     
     # Выбор случайного индекса для скрытия
-    hidden_index = random.randint(0, length - 1)
+    hidden_index = random.randint(0, length - 1) # NOSONAR
     hidden_value = progression[hidden_index]
     
     # Замена скрытого элемента на '..'
@@ -35,8 +35,8 @@ def generate_expression():
     """
     operators = ['+', '-', '*']
     operator = random.choice(operators)
-    num1 = random.randint(1, 50)
-    num2 = random.randint(1, 50)
+    num1 = random.randint(1, 50)# NOSONAR
+    num2 = random.randint(1, 50)# NOSONAR
     
     if operator == '+':
         result = num1 + num2
