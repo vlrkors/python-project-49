@@ -11,8 +11,8 @@ def generate_expression():
     """
     operators = ['+', '-', '*']
     operator = random.choice(operators)
-    num1 = random.randint(1, 20)  # Случайное число от 1 до 20
-    num2 = random.randint(1, 20)  # Случайное число от 1 до 20
+    num1 = random.randint(1, 20)  # NOSONAR
+    num2 = random.randint(1, 20)  # NOSONAR
     
     if operator == '+':
         result = num1 + num2

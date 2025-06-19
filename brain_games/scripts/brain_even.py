@@ -6,7 +6,7 @@ import prompt
 def get_random_number():
 
     """Генерация случайного числа"""
-    return random.randint(1, 100)
+    return random.randint(1, 100)# NOSONAR
 
 
 def main(): 
